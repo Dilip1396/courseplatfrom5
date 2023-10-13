@@ -1,0 +1,122 @@
+/* Add some basic CSS to style the navbar */
+
+body{
+  background-color: red;
+}
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the navbar links */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.course-container {
+         display: flex;
+         flex-wrap: wrap;
+     }
+
+.navbar a.contact {
+       float: right;
+   }
+</style>
+.course-list li {
+            padding: 10px;
+            border: 1px solid #ddd;
+            margin: 5px;
+        }
+        .course-list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 33.33%; /* Display 3 columns per row */
+        }
+img
+{
+height: 223px;
+  width: 100%;
+
+}
+/* Style for the footer container */
+footer {
+  background-color: #333; /* Choose your background color */
+  color: #fff; /* Text color */
+  padding: 20px 0; /* Adjust padding as needed */
+  text-align: center;
+}
+
+/* Style for the footer content */
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Style for the contact information */
+.contact-info {
+  flex: 1;
+  text-align: left;
+}
+
+.contact-info p {
+  margin: 0;
+}
+
+/* Style for the footer links */
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.footer-links li {
+  display: inline;
+  margin: 0 10px; /* Add space between links */
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Style for social media icons */
+.social-icons {
+  flex: 1;
+  text-align: right;
+}
+
+.social-icons a {
+  color: #fff;
+  margin: 0 10px; /* Add space between icons */
+}
+
+/* Style for the copyright notice */
+.copyright {
+  clear: both;
+  text-align: center;
+  padding-top: 20px; /* Adjust spacing as needed */
+}
+
+.copyright p {
+  margin: 0;
+}
+
+/* Hover effect for links and icons (optional) */
+.footer-links a:hover,
+.social-icons a:hover {
+  text-decoration: underline;
+}
+
+/* Additional styling for individual elements (customize as needed) */
